@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    	
+    	<EditText
+    	    android:id="@+id/etAdresa"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:hint="Address"
+        	/>
+    	
+    	<EditText
+    	    android:id="@+id/etPort"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:hint="Port"
+        	/>
+    	
+    	<EditText
+    	    android:id="@+id/etCity"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:hint="City"
+        	/>
+    	
+    	<Spinner 
+    	    android:id="@+id/spinnerC"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:entries="@array/information_types"
+    	    />"
+    	
+    	<Button 
+    	    android:id="@+id/bClient"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:hint="Send to Server"/>
+    	
+    	<TextView
+    	    android:id="@+id/tvClient"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:enabled="false"
+        	/>
+    
+
+</LinearLayout>

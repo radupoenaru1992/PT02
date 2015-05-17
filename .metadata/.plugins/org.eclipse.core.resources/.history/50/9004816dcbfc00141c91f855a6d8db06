@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    	<TextView
+    	    android:id="@+id/tvServer"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="center"
+        	android:text="Server" 
+        	android:enabled="false"/>
+    	
+    	<EditText
+    	    android:id="@+id/etServer"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	/>
+    	
+    	<Button 
+    	    android:id="@+id/bServer"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:hint="Send to Client"/>
+    
+
+</LinearLayout>
